@@ -1,0 +1,104 @@
+div {
+    border: 0px none;
+    padding: 25px 50px 25px 50px;
+	overflow: auto;
+
+}
+
+h1, h2, li {
+	font-family: 'IBM Plex Mono', monospace;
+	}
+h1 {
+	font-size:10vw;
+	text-align: center;
+	font-weight: bold;
+	}
+h2, {
+	font-size: 35px;
+	text-align: left;
+	}
+p {
+    font-size: 15px;
+    color: rgba(0,0,0,.8);
+    font-family: "Georgia", sans-serif;
+    letter-spacing: .02em;
+    font-weight: 300;
+    line-height: 1.5em
+  }
+body {
+    font-family: 'Georgia', serif;
+    margin:0px auto;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: #C0C0C0;
+}
+
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}a
+
+a:visited {
+    color: black;
+}
+
+.center {
+    padding: 70px 0;
+    border: 3px solid green;
+    text-align: center;
+}
+.header
+{
+    padding: 70px;
+    border: 100px solid #white;
+}
+
+img {
+    float: right;
+    border: 3px solid black;
+
+}
+
+.first-column {
+    width: 24%;
+    padding: 0 0px 0 0;
+    float: left;
+}
+
+.second-column {
+    width: 75%;
+    padding: 0 10px 0 0;
+    float: right;
+}
