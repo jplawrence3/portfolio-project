@@ -2,16 +2,17 @@ div {
     border: 0px solid black;
     padding: 50px 50px 25px 50px;
 	overflow: auto;
-
 }
 
 h1, h2, li {
 	font-family: 'IBM Plex Mono', monospace;
 	}
+
 h1 {
 	font-size:10vw;
 	text-align: center;
 	font-weight: bold;
+    padding: 0 0 20% 0 
 	}
 h2, {
 	font-size: 35px;
@@ -79,18 +80,18 @@ a:visited {
     border: 3px solid green;
     text-align: center;
 }
-.header
-{
-    padding: 70px;
-    border: 100px solid #white;
-    height: 100%;
-}
 
 img {
     float: right;
     border: 3px solid black;
 
 }
+
+img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
 
 .first-column {
     width: 24%;
@@ -103,3 +104,11 @@ img {
     padding: 0 0 0 0;
     float: right;
 }
+
+.row img:hover {
+ -webkit-filter: grayscale(0%);
+ -webkit-transition: .5s ease-in-out;
+ -moz-filter: grayscale(0%);
+ -moz-transition: .5s ease-in-out;
+ -o-filter: grayscale(0%);
+ -o-transition: .5s ease-in-out;
